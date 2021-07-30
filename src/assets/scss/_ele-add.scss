@@ -1,0 +1,6 @@
+.el-menu[role="menubar"]>li{
+    &>.el-submenu__title,&.el-menu-item{
+        display: flex;
+        align-items: center;
+    }
+}

@@ -1,0 +1,32 @@
+[
+    {
+        "scenes":"Email地址",
+        "expression":"^([a-zA-Z0-9]+[_|.]?)*[a-zA-Z0-9]+@([a-zA-Z0-9]+[_|.]?)*[a-zA-Z0-9]+.[a-zA-Z]{2,3}$",
+        "examp":""
+    },
+    {
+        "scenes":"base64格式",
+        "expression":"^\\s*data:(?:[a-z]+\/[a-z0-9-+.]+(?:;[a-z-]+=[a-z0-9-]+)?)?(?:;base64)?,([a-z0-9!$&',()*+;=\\-._~:@/?%\\s]*?)\\s*$/i",
+        "examp":"例如: data:image/gif;base64,xxxx=="
+    },
+    {
+        "scenes":"12小时制时间（hh:mm:ss）",
+        "expression":"^(?:1[0-2]|0?[1-9]):[0-5]\\d:[0-5]\\d$",
+        "examp":"例如: 11:34:55 , 反例: 23:34:55"
+    },
+    {
+        "scenes":"24小时制时间（HH:mm:ss）",
+        "expression":"^(?:[01]\\d|2[0-3]):[0-5]\\d:[0-5]\\d$",
+        "examp":"例如: 23:34:55"
+    },
+    {
+        "scenes":"html注释",
+        "expression":"^<!--[\\s\\S]*?-->$",
+        "examp":"例如: <!--<div class='_bubble'></div>-->"
+    },
+    {
+        "scenes":"必须带端口号的网址(或ip)",
+        "expression":"^((ht|f)tps?:\/\/)?[\\w-]+(\\.[\\w-]+)+:\\d{1,5}\/?$",
+        "examp":"例如: https://www.qq.com:8080, 127.0.0.1:5050, baidu.com:8001, http://192.168.1.1:9090 "
+    }
+]

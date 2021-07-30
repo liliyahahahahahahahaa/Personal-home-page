@@ -1,0 +1,25 @@
+[
+    {
+        "pid":"1234",
+        "attr":[
+            {
+                "color":"white",
+                "shape":"shape1",
+                "examp":"",
+                "image":"https://cube.elemecdn.com/0/88/03b0d39583f48206768a7534e55bcpng.png"
+            }
+            
+        ]
+    },
+    {
+        "pid":"4567",
+        "attr":[
+            {
+                "color":"white",
+                "expression":"^([a-zA-Z0-9]+[_|.]?)*[a-zA-Z0-9]+@([a-zA-Z0-9]+[_|.]?)*[a-zA-Z0-9]+.[a-zA-Z]{2,3}$",
+                "examp":""
+            }
+            
+        ]
+    }
+]
